@@ -141,3 +141,42 @@ nav button{
     
     
 }
+
+/* brain-section */
+
+.brain-section{
+    display: flex;
+    gap: 60px;
+    margin-top: 120px;
+    
+}
+
+.brain-section h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #469165;
+    line-height: 20px;
+}
+.brain-section h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.brain-info{
+    width: 700px;
+    padding: 102px 0;
+}
+.brain-info span{
+    font-size: 16px;
+    color: #627382;
+    
+}
+
+.brain-info p{
+    margin-bottom: 16px;
+    font-size: 16px;
+    margin-right: 6px;
+    font-weight: 400;
+    margin-top: 40px;
+}
