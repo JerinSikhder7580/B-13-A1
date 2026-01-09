@@ -11,15 +11,34 @@ section{
   font-optical-sizing: auto;
  
 }
+
+/* hover */
+.btn-hover:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: .3s;
+}
+
+
+
 /* nav */
 nav{
     display: flex;
     justify-content: space-between;
+    padding:16px 0 ;
+    align-items: center;
 
+}
+nav ul{
+    display: flex;
+    gap: 32px;
 }
 nav ul li{
     list-style: none;
-    display: inline;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
     
 }
 
@@ -27,10 +46,10 @@ nav button{
     background-color: #469165;
     color: white;
     border-radius: 4px;
-    border: none;
     width: 164px;
     height: 44px;
     font-weight: 600;
+     border: none;
 }
 
 
@@ -41,15 +60,22 @@ nav button{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    height: 674px;
+    display: flex;
+    align-items: center;
 }
 
 .hero-section .btn-1{
     background-color: white;
     color: #469165;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
-    padding: 8px 12px;
+    padding: 8px 14px;
     margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
 }
 
 
@@ -72,8 +98,14 @@ nav button{
     line-height: 24px;
     margin-bottom: 32px;
 }
+.hero-section-btn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    
+}
 
-.hero-section .btn-2{
+.hero-section-btn .btn-2{
     background-color: #469165;
     color: white;
     border-radius: 4px;
@@ -82,6 +114,11 @@ nav button{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+   
+    
 }
 
 .hero-section .btn-3{
@@ -93,11 +130,22 @@ nav button{
     padding: 12px 16px;
     font-size: 16px;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
 }
+
+
+
+/* notes section */
+
 
 .notes-section{
     text-align: center;
-    margin-top: 60px;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
 }
 .notes-section .note-cards{
     display:flex;
@@ -144,15 +192,19 @@ nav button{
 
 /* brain-section */
 
+
+.brain{
+    display: flex;
+    justify-content: center;
+}
 .brain-section{
     display: flex;
     gap: 60px;
-    margin-top: 120px;
     
 }
 
 .brain-section h3{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #469165;
     line-height: 20px;
@@ -166,6 +218,11 @@ nav button{
 .brain-info{
     width: 700px;
     padding: 102px 0;
+}
+.brain-info-2 p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 .brain-info span{
     font-size: 16px;
@@ -181,16 +238,22 @@ nav button{
     margin-top: 40px;
 }
 
+/* early section */
+
+
 .early-section{
    text-align: center;
-   padding: 120px;
+   padding: 120px 0;
+   display: flex;
+   justify-content: center;
 
    
 }
 .early-section-info{
     background-color: #F7F6F2;
-    padding: 80px 40px;
+     padding: 120px 0;
 }
+
 
 .early-section-info h1{
     font-size: 40px;
@@ -202,6 +265,7 @@ nav button{
     color: #627382;
     font-size: 16px;
 
+    margin-bottom: 24px;
     line-height: 24px;
 
 }
@@ -214,7 +278,52 @@ nav button{
     width: 164px;
     height: 44px;
     font-weight: 600;
-    margin-top: 24px;
-    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  
+}
 
+
+/* footer */
+footer{
+    background-color: #001931;
+    padding: 100px 0;
+    
+}
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.footer-sec h1{
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.footer-icons{
+    
+}
+.footer-icons span{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #627382;
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 30px 0;
 }
