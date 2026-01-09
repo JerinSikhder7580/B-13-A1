@@ -4,7 +4,7 @@
 }
 section{
     width: 1600px;
-    padding: 0 120px;
+    padding: 0px 120px;
 }
 .font-inter{
   font-family: "Inter", sans-serif;
@@ -179,4 +179,42 @@ nav button{
     margin-right: 6px;
     font-weight: 400;
     margin-top: 40px;
+}
+
+.early-section{
+   text-align: center;
+   padding: 120px;
+
+   
+}
+.early-section-info{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+
+.early-section-info h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.early-section span{
+    display: block;
+    color: #627382;
+    font-size: 16px;
+
+    line-height: 24px;
+
+}
+
+.early-section-info button{
+    background-color: #469165;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 164px;
+    height: 44px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
 }
